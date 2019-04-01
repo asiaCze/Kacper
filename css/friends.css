@@ -1,0 +1,50 @@
+.cube {
+    display: block;
+    position: relative;
+    width: 108px;
+    height: 108px;
+    margin: 0 31px;
+    float: left;
+    transform-style: preserve-3d; /* --- prefix --- */
+    transition: all 1.5s ease 0s; /* --- prefix --- */
+  }
+  .cube > div {
+    background-size: contain;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .cube .front {
+    background: url('../images/chris.jpg') no-repeat;
+    transform: rotate3d(0, 1, 0, 0deg) translate3d(0, 0, 54px);   /* --- prefix --- */
+  }
+  .cube .back {
+    background: url('../images/Angela.jpg') no-repeat;;
+    transform: rotate3d(1, 0, 0, 180deg) translate3d(0, 0, 54px); /* --- prefix --- */
+  }
+  .cube .top {
+    background: url('../images/Kate.jpg') no-repeat;;
+    transform: rotate3d(1, 0, 0, 90deg) translate3d(0, 0, 54px);  /* --- prefix --- */
+  }
+  .cube .right {
+    background: url('../images/Lauren.jpg') no-repeat;;
+    transform: rotate3d(0, 1, 0, 90deg) translate3d(0, 0, 54px);  /* --- prefix --- */
+  }
+  .cube .bottom {
+    background: url('../images/Publo.jpg') no-repeat;;
+    transform: rotate3d(1, 0, 0, -90deg) translate3d(0, 0, 54px); /* --- prefix --- */
+  }
+  .cube .left {
+    background: url('../images/piotr.jpg') no-repeat;;
+    transform: rotate3d(0, 1, 0, -90deg) translate3d(0, 0, 54px); /* --- prefix --- */
+  }
+
+  .person {
+      margin: 0 0 0 250px;
+  }
+
+  .name {
+font: bold;
+  }

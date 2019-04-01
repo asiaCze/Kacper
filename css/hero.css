@@ -1,0 +1,36 @@
+:root {
+    --black-color: #191923;
+    --white-color: #fff;
+    --blue-color: #0E79B2;
+    --pink-color: #BF1363;
+    --violet-color: #9B31CE;
+  }
+  
+  
+  .hero {
+    background-image: url("../images/misie.jpg");
+    height: 85vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero.small {    
+    height: 20vh;
+  }
+  
+  .hero--wrapper {
+    border: 10px solid var(--white-color);
+    text-transform: uppercase;
+    padding: 16px;
+    margin: 8px;
+    max-width: 720px;
+  }
+  
+  .hero--content {
+    color: var(--white-color);
+    text-align: center;
+    font-size: 2em;
+  }

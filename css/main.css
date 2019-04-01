@@ -1,0 +1,41 @@
+:root {
+    --black-color: #191923;
+    --white-color: #fff;
+    --blue-color: #0E79B2;
+    --pink-color: #BF1363;
+    --violet-color: #9B31CE;
+  }
+  
+  @import url('https://fonts.google.com/?selection.family=Indie+Flower');
+  
+  html, body, ul, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+  }
+
+  a:link {
+    color: var(--blue-color);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: var(--blue-color);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--black-color);
+  }
+  
+  /* selected link */
+  a:active {
+    color: var(--blue-color);
+  }
+
+  div {
+    text-align: center;
+  }
+
+  
+    
